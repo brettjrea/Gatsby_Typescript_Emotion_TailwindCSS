@@ -11,7 +11,7 @@ plugins: [
         printRejected: true,
         tailwind: true,
       },
-    {
+  {
     resolve: `gatsby-source-strapi`,
     options: {
       apiURL: `http://localhost:1337`,
@@ -23,10 +23,10 @@ plugins: [
       loginData: {
         identifier: "",
         password: "",
-      },
-    },
-  }
-]
+       },
+     },
+   }
+ ]
 
 
   
