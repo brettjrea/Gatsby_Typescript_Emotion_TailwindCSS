@@ -10,7 +10,7 @@
 
 ```
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
-sudo apt install git
+sudo apt install git -y
 npm install -g typescript
 npm install -g gatsby-cli
 gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_emotion_tailwindcss
