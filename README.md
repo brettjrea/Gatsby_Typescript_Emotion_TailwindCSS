@@ -1,4 +1,4 @@
-# Gatsby_Typescript_Styled_Components
+# Gatsby_Typescript_Emotion_TailwindCSS
 
 ## Prerequisites:
 
@@ -57,7 +57,7 @@ npm install -g gatsby-cli
 ### Create Gatsby project from Git repo:
 
 ```
-gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
+gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_emotion_tailwindcss
 ```
 
 ### Change directory to project:
