@@ -2,7 +2,16 @@
 * * See: https://www.gatsbyjs.org/docs/gatsby-config/ */
 
 plugins: [
+  `gatsby-plugin-react-helmet`,
+  `gatsby-plugin-emotion`,
+  `gatsby-plugin-postcss`,
   {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        tailwind: true,
+      },
+    {
     resolve: `gatsby-source-strapi`,
     options: {
       apiURL: `http://localhost:1337`,
@@ -16,16 +25,7 @@ plugins: [
         password: "",
       },
     },
-  },
-  `gatsby-plugin-postcss`,
-  `gatsby-plugin-emotion`,
-  `gatsby-plugin-react-helmet`
-  {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true,
-        tailwind: true,
-      },
+  }
 ]
 
 
