@@ -20,6 +20,12 @@ plugins: [
   `gatsby-plugin-postcss`,
   `gatsby-plugin-emotion`,
   `gatsby-plugin-react-helmet`
+  {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        tailwind: true,
+      },
 ]
 
 
