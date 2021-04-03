@@ -17,7 +17,8 @@ plugins: [
       },
     },
   },
-  `gatsby-plugin-styled-components`,
+  `gatsby-plugin-postcss`,
+  `gatsby-plugin-emotion`,
   `gatsby-plugin-react-helmet`
 ]
 
