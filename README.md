@@ -15,8 +15,9 @@ npm install -g typescript
 npm install -g gatsby-cli
 gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
 cd my-frontend
-npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
-npm i --save-dev @types/styled-components
+npm install tailwindcss --save-dev
+npx tailwind init
+npm i @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env
 npm install --save gatsby-plugin-react-helmet react-helmet
 npm install --save gatsby-source-strapi
 echo "14.16.0" > .nvmrc
@@ -65,11 +66,22 @@ gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_set
 cd my-frontend
 ```
 
-### Add Styled-Components NPM package to project:
+### Add TailwindCSS NPM package to project:
 
 ```
-npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
-npm i --save-dev @types/styled-components
+npm install tailwindcss --save-dev
+```
+
+### Generate TailwindCSS Config.
+
+```
+npx tailwind init
+```
+
+### Add Emotion NPM package.
+
+```
+npm i @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env
 ```
 
 ### Add React-Helmet NPM package for head:
