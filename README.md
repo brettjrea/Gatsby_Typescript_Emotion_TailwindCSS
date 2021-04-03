@@ -13,7 +13,7 @@ sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
 sudo apt install git
 npm install -g typescript
 npm install -g gatsby-cli
-gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
+gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_emotion_tailwindcss
 cd my-frontend
 npm install tailwindcss --save-dev
 npx tailwind init
