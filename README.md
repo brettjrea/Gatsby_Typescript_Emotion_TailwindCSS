@@ -37,7 +37,7 @@ sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
 ### Install required programs:
 
 ```
-sudo apt install git
+sudo apt install git -y
 ```
 
 ---
