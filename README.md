@@ -17,8 +17,7 @@ gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_emotion_ta
 cd my-frontend
 npm install tailwindcss --save-dev
 npx tailwind init
-npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env
-npm i gatsby-plugin-purgecss
+npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env gatsby-plugin-purgecss
 npm install --save gatsby-plugin-react-helmet react-helmet
 npm install --save gatsby-source-strapi
 echo "14.16.0" > .nvmrc
