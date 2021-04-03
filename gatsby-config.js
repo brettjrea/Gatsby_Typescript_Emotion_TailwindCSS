@@ -11,6 +11,7 @@ plugins: [
         printRejected: true,
         tailwind: true,
       },
+    },
   {
     resolve: `gatsby-source-strapi`,
     options: {
