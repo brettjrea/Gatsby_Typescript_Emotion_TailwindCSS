@@ -16,7 +16,7 @@ npm install -g gatsby-cli
 gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_emotion_tailwindcss
 cd my-frontend
 npm install --save gatsby-plugin-react-helmet react-helmet
-npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env gatsby-plugin-purgecss
+npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env
 npm install tailwindcss --save-dev
 npx tailwind init
 npm install --save gatsby-source-strapi
@@ -75,7 +75,7 @@ npm install --save gatsby-plugin-react-helmet react-helmet
 ### Add Emotion NPM package.
 
 ```
-npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env gatsby-plugin-purgecss
+npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-plugin-postcss postcss-import postcss-preset-env
 ```
 
 ### Add TailwindCSS NPM package to project:
