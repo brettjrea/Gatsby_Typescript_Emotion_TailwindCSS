@@ -20,7 +20,7 @@ npm i @emotion/react @emotion/core @emotion/styled tailwind.macro@next gatsby-pl
 npm install tailwindcss --save-dev
 npx tailwind init
 npm install --save gatsby-source-strapi
-echo "14.16.0" > .nvmrc
+echo "18.14.2" > .nvmrc
 npm run develop
 ```
 
@@ -99,7 +99,8 @@ npm install --save gatsby-source-strapi
 ### Create .nvmrc file to set node version to use:
 
 ```
-echo "14.16.0" > .nvmrc
+echo "18.14.2" > .nvmrc
+
 ```
 
 ### Run Gatsby develop:
